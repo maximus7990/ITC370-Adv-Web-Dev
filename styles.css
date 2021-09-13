@@ -1,0 +1,37 @@
+/* Brian Bell 
+   9/13/21 
+   css stylesheet */
+
+
+h1      {
+    color: DarkRed;
+    font: 50px Bookman, URW Bookman L, serif;
+}
+
+.mycenter   {
+    text-align: center;
+}
+
+.footborder     {
+    border:5px black;
+}
+
+.back   {
+    background-color: CadetBlue;
+}
+
+p   {
+    font-size: small;
+}
+
+p.fixed     {
+    position:fixed;
+    top: 900px;
+    width: 1900px;
+    border-style:double;
+    text-align: center;
+}
+
+img     {
+    float: left;
+}

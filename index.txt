@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<!-- Brian Bell -->
+	<!-- 8/23/21 -->
+	<!-- index.html -->
+
+	<title>My Page</title>
+		<body>
+
+			<h1>Brian's Page</h1>
+			<p>This is a picture of my goofball dog</p>
+			<img src="20210805_075803.jpg" alt="Descriptive text">
+
+		</body>
+</html>
