@@ -1,0 +1,59 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .main {
+    padding: 10px;
+    margin-top: 5px; 
+    font-size: 35px;
+    text-align: center;
+    border-style: solid;
+  }
+  
+  .image {
+    width: 100.4%;
+    height: 30em;
+    overflow: hidden;
+  }
+  p.fixed     {
+    position:fixed;
+    top: 895px;
+    width: 100%;
+    border-style:double;
+    text-align: center;
+}
+.bgcolor     {
+    background-color: linen;
+}
+#prodpic    {
+    float: left;
+}
+ .prod {
+     padding: 10px;
+     border-style: groove;
+    
+ }
+ p.prod  {
+     padding: 15px;
+     align-content: center;
+     justify-content: center;
+     font-size: 35px;
+     border-style: none;
+ }
+ #headpic {
+    min-width: 100%;
+    min-height: 100%;
+}
