@@ -38,8 +38,7 @@
     height: 30em;
     overflow: hidden;
   }
-  p.fixed     {
-    position:fixed;
+  footer     {
     top: 895px;
     width: 100%;
     border-style:double;
@@ -48,13 +47,18 @@
 .bgcolor     {
     background-color: linen;
 }
-#prodpic    {
+#NZ    {
     float: left;
+}
+#hawaii    {
+  float: left;
+}
+#italy    {
+  float: left;
 }
  .prod {
      padding: 10px;
-     border-style: groove;
-    
+     border-style: groove;    
  }
  p.prod  {
      padding: 15px;
