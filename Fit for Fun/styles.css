@@ -1,0 +1,184 @@
+/* Brian Bell */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+.main {
+    padding: 10px;
+    margin-top: 5px; 
+    font-size: 35px;
+    text-align: center;
+    border-style: solid;
+  }
+.image {
+    width: 100.4%;
+    height: 30em;
+    overflow: hidden;
+  }
+#headpic {
+    min-width: 100%;
+    min-height: 100%;
+}
+.tg  {border-color:black; 
+    border-width:1px;
+    border-style: solid;
+    border-spacing:0;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 55%;
+}
+    
+.tg th{border-color:black;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-wa1i{font-weight:bold;
+    text-align:center;
+    vertical-align:middle;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+}
+.tg .tg-cl1{text-align:left;
+    vertical-align:middle;
+    color: grey;
+    border-right: 1px solid black;
+}
+.tg .tg-cl2{text-align:left;
+    vertical-align:top;
+    border-radius: 0; 
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.tg .tg-cl3{text-align:left;
+    vertical-align:top;
+    font-family: arial, sans-serif;
+    border-right: 1px solid black;
+}
+.tg .tg-cly1{text-align:left;
+    vertical-align:middle;
+    color: grey;
+    border-right: 1px solid black;
+    border-left: 4px solid blue;
+}
+.tg .tg-cly2{text-align:left;
+    vertical-align:top;
+    border-radius: 0; 
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-style: italic;
+    color: grey;
+    border-left: 4px solid blue;
+}
+.tg .tg-cly3{text-align:left;
+    vertical-align:top;
+    font-family: arial, sans-serif;
+    border-right: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    border-left: 4px solid blue;
+}
+.tg .tg-clx1{text-align:left;
+    vertical-align:middle;
+    color: grey;
+    border-right: 1px solid black;
+    border-left: 4px solid orangered;
+}
+.tg .tg-clx2{text-align:left;
+    vertical-align:top;
+    border-radius: 0; 
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-style: italic;
+    color: grey;
+    border-left: 4px solid orangered
+}
+.tg .tg-clx3{text-align:left;
+    vertical-align:top;
+    font-family: arial, sans-serif;
+    border-right: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    border-left: 4px solid orangered
+}
+.equipment{
+    font-size: 45px;
+}
+.header{
+    font-size: 75px;
+    background-color: darkred;
+    padding: 45px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+input, select{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 200px;
+}
+.personal{
+    display: flex;
+}
+.personal>div{
+    margin-right: 15px;
+}
+fieldset{
+    border:0;
+    padding: 0;
+}
+
+fieldset>div{
+    margin-bottom: 30px;
+}
+label{
+    display:block;
+
+}
+label span{
+    color: red;
+}
+.checkbox{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    background: blue;
+    border: 0;
+    color: white;
+    width: 224px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.classinfo{
+    font-size:"20px";
+    text-align: center;
+}
