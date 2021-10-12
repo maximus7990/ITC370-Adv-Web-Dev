@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Responsive Travel</title>
+        <style type="text/css">
+
+            *{
+                margin: 0;
+                padding:0;
+            }
+
+            body{
+                font-family: sans-serif;
+                margin: 0 auto;
+                background: black;
+                color: white;
+            }
+
+            header{
+                text-align: center;
+            }
+
+            .island-card{
+                border: 1px solid white;
+                padding:30px;
+                margin: 10px;
+                color: white;
+            }
+           
+            .island-card img{
+                width:100%;
+           }
+
+           .island-card h2{
+               margin: 30px 0 15px;
+           }
+
+           .island-card a{
+               color:white;
+               text-decoration: none;
+               font-size: 12px;
+           }
+
+           .island-card p{
+               line-height: 1.5;
+           }
+
+           .desc{
+               color:white;
+               word-wrap: normal;
+               font-size: 12px;
+           }
+
+           .intro{
+               margin: 30px 0;
+               padding: 0 10px;
+               width: 100%;
+               font-size: 12px;
+               text-align: center;
+           }
+
+           .intro h1{
+               margin-bottom: 15px;
+           }
+
+           .intro p{
+               line-height: 1.5;
+           }
+
+           .island{
+                   text-align: center;
+               }
+           
+           @media (min-width: 950px){
+               header{
+                   text-align: left;
+                   background: black;
+               }
+
+               body{
+                   background: white;
+                   color: black;
+               }
+
+               .intro{
+                   width: 100%;
+                   text-align: center;
+                   font-size: 20px;
+               }
+
+               .island-card{
+                   display:grid;
+                   grid-template-columns: auto auto auto auto;
+                   border: 1px solid black;
+                }
+
+               .island-card{
+                   display: inline-block;
+                   align-items: center;
+               }
+
+               .island-card a{
+                   color: black;
+                   font-size: 18px;
+               }
+
+               .desc{
+                   color: black;
+                   font-size: 16px;
+               }
+
+                              
+           }
+
+           @media screen and (min-width:501px) and (max-width:949px){
+               header{
+                   align-items: left;
+                   display: flex;
+               }
+
+               .intro{
+                   font-size: 14px;
+               }
+
+               .island-card a{
+                   font-size: 14px;
+               }
+
+               .desc{
+                   font-size: 14px;
+               }
+
+
+           }
+           @media only print{
+               header{
+                   display: none;
+               }
+           }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <img src="https://dummyimage.com/200x100/000/fff&text=Logo" alt=""/>
+        </header>
+
+        <section>
+            <section class="intro">
+                <h1>Travel with the best</h1>
+                <p>We know all the best places to go in Hawaii, let us book your trip and take care of everything!</p>
+                </section>
+        </section>
+        <section class="island">
+        <div class="island-card">
+            <img src="oahu.jpg" alt="Island image 1"/>
+            <h2><a href="">Oahu</a></h2>
+            <p class="desc">The "Heart of Hawaii" is home to the capital city</p>
+            <p class="desc">of Honolulu and legendary surf towns like Haleiwa.</p>
+        </div>
+        <div class="island-card">
+            <img src="molokai.jpg" alt="Island image 2"/>
+            <h2><a href="">Molokai</a></h2>
+            <p class="desc">True to its island roots, Molokai is</p>
+            <p class="desc">filled with rustic charm and epic beauty.</p>
+        </div>
+        <div class="island-card">
+            <img src="kauai.jpg" alt="Island image 2"/>
+            <h2><a href="">Kauai</a></h2>
+            <p class="desc">The "Garden Isle" is home to some of the most</p>
+            <p class="desc">dramatic scenery in the South Pacific.</p>
+        </div>
+        </section>
+    </body>
+</html>
