@@ -9,7 +9,7 @@ h1{
     color:cadetblue;
     margin-top: 25px;
 }
-h2{
+.title{
     text-align: center;
     color:cadetblue; 
 }
@@ -44,4 +44,10 @@ h2{
 }
 footer{
     display: relative;
+}
+.amenities{
+    background-image: url("images/background.png");
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
